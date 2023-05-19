@@ -24,6 +24,10 @@ body {
     width: 100%;
     transition: all 0.15s ease;
 }
+.m2,.m3,.m4 {
+    display: none;
+}
+
 .images input {
     display: none;
 }
@@ -43,14 +47,18 @@ body {
 }
 .dots label:hover {background: #fff;}
 #img1:checked ~ .m1 {
-    margin-left: 0;
+    margin-left: -0%;
+    
 }
 #img2:checked ~ .m2 {
     margin-left: -100%;
+    display: block;
 }
 #img3:checked ~ .m3 {
-    margin-left: -200%;
+    margin-left: -100%;
+    display: block;
 }
 #img4:checked ~ .m4 {
-    margin-left: -300%;
+    margin-left: -100%;
+    display: block;
 }
